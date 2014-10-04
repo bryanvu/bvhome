@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 gem 'rails', '3.2.9'
-gem 'sqlite3'
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
@@ -9,6 +8,7 @@ end
 gem 'jquery-rails'
 gem "thin", ">= 1.5.0"
 gem "haml", ">= 3.1.7"
+gem "json", ">= 1.7.7"
 gem "haml-rails", ">= 0.3.5", :group => :development
 gem "hpricot", ">= 0.8.6", :group => :development
 gem "ruby_parser", ">= 3.1.0", :group => :development
